@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url(orange.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contanier1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: top-right;
+}
+.pomodoro-timer {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+#timer {
+  font-size: 48px;
+  margin: 20px 0;
+}
+.controls button, .break-controls button {
+  background-color: white;
+  color: #ff6f61;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.controls button:hover, .break-controls button:hover {
+  background-color: #ff856e;
+}
+.task-list {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+#tasks {
+  list-style: none;
+  padding: 0;
+}
+#tasks li {
+  margin: 10px 0;
+}
+#new-task {
+  width: 80%;
+  padding: 5px;
+}
+#add-task {
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#add-task:hover {
+  background-color: #ff856e;
+}
